@@ -20,7 +20,7 @@ Welcome to **My_FreeCamS** – a growing collection of custom **Cheat Engine Aut
 |------------------------|-------------------------------------------|
 | `basic_freecam.CT`     | Enables a free-fly camera                 |
 | `toggle_freecam.CT`    | Hotkey-based enable/disable camera        |
-| `example_hook.txt`     | Snippet showing basic camera hook logic   |
+| `example_hook.asm`     | Snippet showing basic camera hook logic   |
 
 *(More coming soon!)*
 
