@@ -32,6 +32,9 @@ Welcome to **My_FreeCameraS* – a growing collection of custom **Cheat Engine A
   ### prev2
   https://s6.gifyu.com/images/bMu4U.gif
 
+
+
+
 ## 🧠 How It Works
 
 These scripts use Cheat Engine's **Auto Assembler (AA)** to inject custom assembly into the game's memory. We hook camera update functions and override position/rotation values manually.
