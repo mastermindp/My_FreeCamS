@@ -1,77 +1,77 @@
-# My_FreeCamS
-Powerful and customizable free camera ASM scripts for various games using Cheat Engine.
+# 🎮 My_FreeCamS
 
-
-# 🎮 Free Camera ASM Scripts for Cheat Engine
-
-Take full control of your in-game camera with these powerful Auto Assembler scripts for Cheat Engine. Perfect for capturing cinematic shots, exploring hidden areas, or just having fun with game internals.
+Welcome to **My_FreeCamS** – a growing collection of custom **Cheat Engine Auto Assembler (AA)** scripts built to enable **free camera control** in various games. Whether you're capturing cinematic shots, exploring hidden areas, or breaking the limits for fun — these scripts give you full camera freedom.
 
 ---
 
 ## 📌 Features
 
-- 🌀 Free camera movement (fly, rotate, etc.)
-- 🔗 Attach/detach camera from player
-- 🎥 Smooth transitions
-- 🎮 Supports various games (expandable!)
+- 🛸 Full free camera movement (XYZ + rotation)
+- ⛓️ Option to detach camera from player/entity
+- 🎥 Ideal for screenshots, video content, or exploration
+- 🔁 Hotkey support for toggling/freezing features
+- ⚙️ Expandable to support multiple games
 
 ---
 
-## 📁 Scripts Included
+## 📁 Included Scripts
 
-| Script Name        | Description                             |
-|--------------------|-----------------------------------------|
-| `free_camera.CT`   | Basic free camera for DX11 games        |
-| `toggle_freecam.CT`| Hotkey-enabled toggle camera script     |
+| Script Name            | Description                               |
+|------------------------|-------------------------------------------|
+| `basic_freecam.CT`     | Enables a free-fly camera                 |
+| `toggle_freecam.CT`    | Hotkey-based enable/disable camera        |
+| `example_hook.txt`     | Snippet showing basic camera hook logic   |
+
+*(More coming soon!)*
+
+---
+
+## 📸 Preview
+
+> *(Add a cool GIF or screenshot here later, like showing the cam flying through a level or detaching from the player)*
 
 ---
 
 ## 🧠 How It Works
 
-These scripts use **Cheat Engine's Auto Assembler (AA)** to hook into the camera functions of a game. It manipulates camera position and orientation in real-time using memory injection and assembly patches.
+These scripts use Cheat Engine's **Auto Assembler (AA)** to inject custom assembly into the game's memory. We hook camera update functions and override position/rotation values manually.
+
+Some scripts use **AOB scanning** for compatibility across game versions.
 
 ---
 
-## 📸 Demo
+## ⚙️ How to Use
 
-![demo](media/fly_camera_demo.gif)
-
-*(Add your own screenshots or screen-recording GIF here for wow factor!)*
-
----
-
-## ⚙️ Usage
-
-1. Open your game.
-2. Launch Cheat Engine.
-3. Load the provided `.CT` file.
-4. Attach to the game process.
-5. Activate the script.
-6. Enjoy your free cam!
+1. Launch your game.
+2. Open Cheat Engine.
+3. Load one of the `.CT` scripts from this repo.
+4. Attach CE to the game process.
+5. Activate the script(s).
+6. Use hotkeys or the CE interface to control the cam.
 
 ---
 
-## 🧩 Requirements
+## 🛠 Requirements
 
-- [Cheat Engine](https://www.cheatengine.org/)
-- Compatible game (DX9/DX11)
-- Some games may require additional pointers or AOB scans
+- ✅ [Cheat Engine](https://www.cheatengine.org/) (latest version recommended)
+- 🎮 Game compatibility (currently tailored to select titles, but expandable)
+- 💡 Some reverse engineering knowledge helps
 
 ---
 
-## 🛠️ Contributions
+## 📬 Contribute / Request Support
 
-Want to add support for more games? PRs welcome! Or submit an issue if you have ideas or found bugs.
+- Found a cool game to support? PRs are welcome!
+- Need help adjusting a script for your game? [Open an issue](https://github.com/mastermindp/My_FreeCamS/issues)
 
 ---
 
 ## 📜 License
 
-MIT License – free to use and modify, just give credit.
+MIT – Free to use, modify, or build upon. A little credit is appreciated 🙏
 
 ---
 
-## ⭐ Support
+## 🌟 Like it?
 
-If you find this useful, consider starring the repo 🌟 and sharing it with others in the CE community!
-
+If this repo helped you, feel free to **star** it and share it with others in the Cheat Engine or modding community. Let’s make cameras free again 🚀
