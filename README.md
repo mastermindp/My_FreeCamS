@@ -28,7 +28,8 @@ Welcome to **My_FreeCamS** – a growing collection of custom **Cheat Engine Aut
 
 ## 📸 Preview
 
-![FreeCam Demo](https://s6.gifyu.com/images/bMudr.md.gif)
+<img src="https://s6.gifyu.com/images/bMudr.gif" width="600" alt="FreeCam Demo GIF" />
+
 
 
 ## 🧠 How It Works
