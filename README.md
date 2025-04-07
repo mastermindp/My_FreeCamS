@@ -28,9 +28,8 @@ Welcome to **My_FreeCamS** – a growing collection of custom **Cheat Engine Aut
 
 ## 📸 Preview
 
-> *(Add a cool GIF or screenshot here later, like showing the cam flying through a level or detaching from the player)*
+![FreeCam Demo](https://s1.gifyu.com/images/bMudr.gif)
 
----
 
 ## 🧠 How It Works
 
