@@ -211,33 +211,4 @@ Camera_address:
 
 unregistersymbol(Camera_address fCamera YawRadian PitchRadian DeltaX DeltaZ DeltaY SpeedUP)
 dealloc(newmem)
-//unregistersymbol(*)
-//dealloc(*)
-
 {
-// ORIGINAL CODE - INJECTION POINT: Client-Win64-Shipping.exe+4380FD0
-
-Client-Win64-Shipping.exe+4380FA4: 41 8B 45 14        - mov eax,[r13+14]
-Client-Win64-Shipping.exe+4380FA8: 49 8D 7D 0C        - lea rdi,[r13+0C]
-Client-Win64-Shipping.exe+4380FAC: F2 0F 10 07        - movsd xmm0,[rdi]
-Client-Win64-Shipping.exe+4380FB0: 49 8D 5D 18        - lea rbx,[r13+18]
-Client-Win64-Shipping.exe+4380FB4: 89 44 24 58        - mov [rsp+58],eax
-Client-Win64-Shipping.exe+4380FB8: 4C 8D 4C 24 50     - lea r9,[rsp+50]
-Client-Win64-Shipping.exe+4380FBD: 41 8B 45 08        - mov eax,[r13+08]
-Client-Win64-Shipping.exe+4380FC1: 4C 8D 44 24 40     - lea r8,[rsp+40]
-Client-Win64-Shipping.exe+4380FC6: F2 0F 11 44 24 50  - movsd [rsp+50],xmm0
-Client-Win64-Shipping.exe+4380FCC: 41 0F 28 C9        - movaps xmm1,xmm9
-// ---------- INJECTING HERE ----------
-Client-Win64-Shipping.exe+4380FD0: F2 41 0F 10 45 00  - movsd xmm0,[r13+00]
-// ---------- DONE INJECTING  ----------
-Client-Win64-Shipping.exe+4380FD6: 49 8B CF           - mov rcx,r15
-Client-Win64-Shipping.exe+4380FD9: 48 89 5C 24 38     - mov [rsp+38],rbx
-Client-Win64-Shipping.exe+4380FDE: 89 44 24 48        - mov [rsp+48],eax
-Client-Win64-Shipping.exe+4380FE2: 49 8B 07           - mov rax,[r15]
-Client-Win64-Shipping.exe+4380FE5: F2 0F 11 44 24 40  - movsd [rsp+40],xmm0
-Client-Win64-Shipping.exe+4380FEB: F3 0F 10 03        - movss xmm0,[rbx]
-Client-Win64-Shipping.exe+4380FEF: 48 89 7C 24 30     - mov [rsp+30],rdi
-Client-Win64-Shipping.exe+4380FF4: 4C 89 6C 24 28     - mov [rsp+28],r13
-Client-Win64-Shipping.exe+4380FF9: F3 0F 11 44 24 20  - movss [rsp+20],xmm0
-Client-Win64-Shipping.exe+4380FFF: FF 90 A8 02 00 00  - call qword ptr [rax+000002A8]
-}
