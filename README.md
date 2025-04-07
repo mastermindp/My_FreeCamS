@@ -1,6 +1,6 @@
 # 🎮 My_FreeCamS
 
-Welcome to **My_FreeCameraS* – a growing collection of custom **Cheat Engine Auto Assembler (AA)** scripts built to enable **free camera control** in various games. Whether you're capturing cinematic shots, exploring hidden areas, or breaking the limits for fun — these scripts give you full camera freedom.
+Welcome to **My_FreeCamS** – a growing collection of custom **Cheat Engine Auto Assembler (AA)** scripts built to enable **free camera control** in various games. Whether you're capturing cinematic shots, exploring hidden areas, or breaking the limits for fun — these scripts give you full camera freedom.
 
 ---
 
@@ -27,10 +27,9 @@ Welcome to **My_FreeCameraS* – a growing collection of custom **Cheat Engine A
 
 ## 📸 Preview
 
-  <img src="https://s6.gifyu.com/images/bMudr.gif" width="600" alt="FreeCam Demo GIF" />
+<img src="https://s6.gifyu.com/images/bMudr.gif" width="600" alt="FreeCam Demo GIF" />
 
-  ### prev2
-  https://s6.gifyu.com/images/bMu4U.gif
+
 
 
 
