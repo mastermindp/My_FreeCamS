@@ -18,9 +18,8 @@ Welcome to **My_FreeCamS** – a growing collection of custom **Cheat Engine Aut
 
 | Script Name            | Description                               |
 |------------------------|-------------------------------------------|
-| `basic_freecam.CT`     | Enables a free-fly camera                 |
-| `toggle_freecam.CT`    | Hotkey-based enable/disable camera        |
-| `example_hook.asm`     | Snippet showing basic camera hook logic   |
+| `basic_freecam.asm`     | Enables a free-fly camera                |
+| `hook_freecam.asm`     | Snippet showing basic camera hook logic   |
 
 *(More coming soon!)*
 
