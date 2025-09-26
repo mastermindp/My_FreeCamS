@@ -73,7 +73,7 @@ Some scripts use **AOB scanning** for compatibility across game versions.
 
 ## 📜 License
 
-MIT – Free to use, modify, or build upon. A little credit is appreciated 🙏
+MIT – Free to use, modify, or build upon. A little credit is appreciated
 
 ---
 
